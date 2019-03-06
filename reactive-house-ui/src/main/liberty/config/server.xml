@@ -1,0 +1,8 @@
+<server description="Reactive House UI Server">
+	<featureManager>
+		<feature>jaxrs-2.1</feature>
+        <feature>microprofile-1.3</feature>
+	</featureManager>
+
+	<webApplication location="ReactiveHouseUI.war" contextRoot="/"/>
+</server>
